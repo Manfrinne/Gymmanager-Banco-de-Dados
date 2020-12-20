@@ -28,6 +28,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em uma banco de da
 ## Passos do desenvolvimento:
 
 - Refatorando estruturas de pastas;
+- Exportar com method shorthand ES6;
 
 
 ## Como contribuir:

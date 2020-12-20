@@ -1,6 +1,6 @@
 module.exports = {
   
-age: function age(timestamp) {
+age(timestamp) {
   const today = new Date()
   const birthDate = new Date(timestamp)
 
@@ -16,7 +16,7 @@ age: function age(timestamp) {
 
 // função para resolver o erro
 // na página de editar dados
-date: function(timestamp) {
+date(timestamp) {
   const date = new Date(timestamp)
 
   const year = date.getUTCFullYear()
