@@ -35,6 +35,12 @@ module.exports = {
 
   },
 
+  edit(req, res) {
+
+    return
+
+  },
+
   put(req, res) {
 
     const keys = Object.keys(req.body)
