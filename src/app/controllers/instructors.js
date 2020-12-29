@@ -1,11 +1,16 @@
 
 const {age, date} = require('../../lib/utils')
 const db = require('../../config/db')
+const { query } = require('../../config/db')
 
 module.exports = {
   index(req, res) {
 
-    return res.render("instructors/index")
+    db.query(`SELECT * FROM instructors`, function(err, results) {
+      if (err) return res.send("Database INDEX Error!")
+
+      return res.render("instructors/index", {instructors: results.rows})
+    })
 
   },
 
@@ -23,7 +28,7 @@ module.exports = {
             return res.send('Please, fill in all fields.')
         }
     }
-  
+
     const query = `
       INSERT INTO instructors (
         name,
@@ -46,7 +51,7 @@ module.exports = {
     ]
 
     db.query(query, values, function(err, results) {
-      if (err) return res.send("Database Error!")
+      if (err) return res.send("Database POST Error!")
 
       return res.redirect(`/instructors/${results.rows[0].id}`)
     })
