@@ -30,6 +30,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em uma banco de da
 - Refatorar estruturas de pastas;
 - Exportar com method shorthand ES6;
 - Configurar conexão com o Banco de Dados;
+- Enviar dados para o Banco de Dados - Post function;
 
 ## Como contribuir:
 

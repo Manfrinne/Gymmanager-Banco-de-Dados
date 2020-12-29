@@ -17,6 +17,7 @@ age(timestamp) {
 // função para resolver o erro
 // na página de editar dados
 date(timestamp) {
+
   const date = new Date(timestamp)
 
   const year = date.getUTCFullYear()
@@ -29,6 +30,9 @@ date(timestamp) {
 
   // return yyyy-mm-dd
   return {
+      day,
+      month,
+      year,
       iso:`${year}-${month}-${day}`,
       birthDay: `${day}/${month}`
     }
