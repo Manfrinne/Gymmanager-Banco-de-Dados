@@ -1,8 +1,9 @@
 const db = require('../../config/db')
-const {age, date} = require('../../lib/utils')
+const {date} = require('../../lib/utils')
 
 
 module.exports = {
+
   all(callback) {
 
     db.query(`SELECT * FROM instructors`, function(err, results) {
@@ -13,6 +14,7 @@ module.exports = {
 
     })
   },
+
   create(data, callback) {
     const query = `
       INSERT INTO instructors (
@@ -39,6 +41,18 @@ module.exports = {
       if (err) return res.send("Database POST Error!")
 
       callback(results.rows[0])
+    })
+  },
+
+  find(id, callback) {
+    db.query(`SELECT * FROM instructors WHERE id = $1`,
+
+      [id], function(err, results) {
+
+        if (err) return res.send("Database SHOW Error!")
+
+        callback(results.rows[0])
+
     })
   }
 }
