@@ -34,6 +34,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em uma banco de da
 - Pegar dados do Banco de Dados - Index function;
 - Criar Models com Callback functions;
 - Buscar registro único do Banco de Dados - Show function;
+- Editar dados do Banco de Dados - EDIT & PUT function;
 
 ## Como contribuir:
 
