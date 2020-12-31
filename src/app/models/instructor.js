@@ -8,7 +8,7 @@ module.exports = {
 
     db.query(`SELECT * FROM instructors`, function(err, results) {
 
-      if (err) return res.send("Database INDEX Error!")
+      if (err) throw `Database Error! ${err}`
 
       callback(results.rows)
 
@@ -38,7 +38,7 @@ module.exports = {
     ]
 
     db.query(query, values, function(err, results) {
-      if (err) return res.send("Database POST Error!")
+      if (err) throw `Database Error! ${err}`
 
       callback(results.rows[0])
     })
@@ -49,7 +49,7 @@ module.exports = {
 
       [id], function(err, results) {
 
-        if (err) return res.send("Database SHOW Error!")
+        if (err) throw `Database Error! ${err}`
 
         callback(results.rows[0])
 
@@ -77,7 +77,7 @@ module.exports = {
     ]
 
     db.query(query, values, function(err, results) {
-      if (err) return res.send("Database PUT Error!")
+      if (err) throw `Database Error! ${err}`
 
       callback()
     })
