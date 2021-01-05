@@ -2,7 +2,7 @@
 
 > Projeto desenvolvido em aulas do 'Módulo 4' - Professor Mayk Brito
 
-Vamos colocar todas as informações do projeto 'Gym Manager' em uma banco de dados SQL.
+Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dados SQL.
 
 
  ## Tecnologias e ferramentas:
@@ -36,6 +36,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em uma banco de da
 - Buscar registro único do Banco de Dados - Show function;
 - Editar dados do Banco de Dados - EDIT & PUT function;
 - Capturar erros da aplicação;
+- Deletar dados do Banco de Dados;
 
 ## Como contribuir:
 
