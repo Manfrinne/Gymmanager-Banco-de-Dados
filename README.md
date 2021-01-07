@@ -38,6 +38,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 - Capturar erros da aplicação;
 - Deletar dados do Banco de Dados;
 - Ajustar tabelas, controllers e models dos membros;
+- Ordenar dados do Banco de Dados;
 
 ## Como contribuir:
 
