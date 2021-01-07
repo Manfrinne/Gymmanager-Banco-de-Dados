@@ -37,6 +37,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 - Editar dados do Banco de Dados - EDIT & PUT function;
 - Capturar erros da aplicação;
 - Deletar dados do Banco de Dados;
+- Ajustar tabelas, controllers e models dos membros;
 
 ## Como contribuir:
 

@@ -1,4 +1,3 @@
-
 const Instructor = require('../models/instructor')
 const {age, date} = require('../../lib/utils')
 
