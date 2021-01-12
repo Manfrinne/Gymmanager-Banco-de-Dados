@@ -12,7 +12,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
   <li>Nodemon</li>
   <li>Express</li>
   <li>Nunjucks</li>
-  <li>Postgres</li>
+  <li>PostgreSQL</li>
  </ul>
 
 ## Rodando o projeto:
