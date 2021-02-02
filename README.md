@@ -27,18 +27,20 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 
 ## Passos do desenvolvimento:
 
-- Refatorar estruturas de pastas;
-- Exportar com method shorthand ES6;
-- Configurar conexão com o Banco de Dados;
-- Enviar dados para o Banco de Dados - Post function;
-- Pegar dados do Banco de Dados - Index function;
-- Criar Models com Callback functions;
-- Buscar registro único do Banco de Dados - Show function;
-- Editar dados do Banco de Dados - EDIT & PUT function;
-- Capturar erros da aplicação;
-- Deletar dados do Banco de Dados;
-- Ajustar tabelas, controllers e models dos membros;
-- Ordenar dados do Banco de Dados;
+- [x] Refatorar estruturas de pastas;
+- [x] Exportar com method shorthand ES6;
+- [x] Configurar conexão com o Banco de Dados;
+- [x] Enviar dados para o Banco de Dados - Post function;
+- [x] Pegar dados do Banco de Dados - Index function;
+- [x] Criar Models com Callback functions;
+- [x] Buscar registro único do Banco de Dados - Show function;
+- [x] Editar dados do Banco de Dados - EDIT & PUT function;
+- [x] Capturar erros da aplicação;
+- [x] Deletar dados do Banco de Dados;
+- [x] Ajustar tabelas, controllers e models dos membros;
+- [x] Ordenar dados do Banco de Dados;
+- [x] Unir tabelas, agrupar e contar colunas;
+- [x] Criar colunas, selecinar e mostrar instrutores dos membros;
 
 ## Como contribuir:
 
