@@ -41,6 +41,10 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 - [x] Ordenar dados do Banco de Dados;
 - [x] Unir tabelas, agrupar e contar colunas;
 - [x] Criar colunas, selecinar e mostrar instrutores dos membros;
+- [x] Estruturar filtro na página dos instrutores;
+- [x] Estilizar filtragem na página dos instrutores;
+- [x] Lógica da filtragem de dados;
+- [x] Filtro flexível com condições OR do SQL;
 
 ## Como contribuir:
 
