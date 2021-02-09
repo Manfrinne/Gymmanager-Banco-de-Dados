@@ -45,6 +45,8 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 - [x] Estilizar filtragem na página dos instrutores;
 - [x] Lógica da filtragem de dados;
 - [x] Filtro flexível com condições OR do SQL;
+- [x] Query dinâmica e estrutura de paginação na página de instrutores;
+- [x] Adicionar função para numerar paginação - Frontend;
 
 ## Como contribuir:
 
