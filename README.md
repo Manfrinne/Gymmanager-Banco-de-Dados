@@ -49,7 +49,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 - [x] Adicionar função para numerar paginação - Frontend;
 - [x] Pegar total de registros com subqueries;
 - [x] Estruturar dados da paginação;
-- [x] Pegar dados do HTML com dataset;
+- [ ] Pegar dados do HTML com dataset;
 
 ## Como contribuir:
 
