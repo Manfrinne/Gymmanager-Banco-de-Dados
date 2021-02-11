@@ -47,6 +47,9 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 - [x] Filtro flexível com condições OR do SQL;
 - [x] Query dinâmica e estrutura de paginação na página de instrutores;
 - [x] Adicionar função para numerar paginação - Frontend;
+- [x] Pegar total de registros com subqueries;
+- [x] Estruturar dados da paginação;
+- [x] Pegar dados do HTML com dataset;
 
 ## Como contribuir:
 
