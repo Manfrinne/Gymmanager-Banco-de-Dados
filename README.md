@@ -53,7 +53,7 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 - [x] Montando paginação no Frontend - script.js;
 - [x] Estilizando a paginação - style.css;
 - [x] Mantendo estado do filtro;
-- [ ] Aplicando paginação para membros;
+- [x] Aplicando paginação para membros;
 
 
 ## Como contribuir:
