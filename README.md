@@ -50,6 +50,11 @@ Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dad
 - [x] Pegar total de registros com subqueries;
 - [x] Estruturar dados da paginação;
 - [x] Pegar dados do HTML com dataset;
+- [x] Montando paginação no Frontend - script.js;
+- [x] Estilizando a paginação - style.css;
+- [x] Mantendo estado do filtro;
+- [ ] Aplicando paginação para membros;
+
 
 ## Como contribuir:
 
