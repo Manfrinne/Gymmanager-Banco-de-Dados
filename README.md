@@ -1,6 +1,6 @@
-# Projeto Bootcamp Rocketseat - Banco de Dados (Módule 4)
+# Projeto Bootcamp Rocketseat - Banco de Dados (Módule 5)
 
-> Projeto desenvolvido em aulas do 'Módulo 4' - Professor Mayk Brito
+> Desenvolvimento Web Fullstack
 
 Vamos colocar todas as informações do projeto 'Gym Manager' em um Banco de Dados SQL.
 
