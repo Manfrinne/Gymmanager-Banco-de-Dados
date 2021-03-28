@@ -1,4 +1,4 @@
-# Projeto Bootcamp Rocketseat - Banco de Dados (Módule 5)
+# Projeto Bootcamp Rocketseat - Banco de Dados 
 
 > Desenvolvimento Web Fullstack
 
